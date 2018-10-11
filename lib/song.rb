@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # class Songs
 # attr_accessor :title, :artist
 #
@@ -12,4 +13,13 @@ class Song
 
 
 
+=======
+class Song
+  attr_accessor :artist, :name, :genre
+
+  def initialize(name)
+    @name = name
+    @genre = genre
+  end
+>>>>>>> f15757edd261409612fdd989e09c8934327fb726
 end
